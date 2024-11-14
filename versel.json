@@ -1,0 +1,14 @@
+{
+    "version": 2,
+    "functions": {
+      "api/hello.js": {
+        "runtime": "nodejs14.x"
+      }
+    },
+    "builds": [
+      {
+        "src": "api/hello.js",
+        "use": "@vercel/node"
+      }
+    ]
+  }
